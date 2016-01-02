@@ -1,0 +1,53 @@
+/*.show-scope .doc-example-live.ng-scope,
+.show-scope .doc-example-live .ng-scope,{
+	border: 1px solid red;
+	margin: 3px;
+}*/
+* {
+  margin: 0px;
+  padding: 0px; }
+
+#bg-video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%; }
+
+#nav-bar {
+  font-family: 'Helvetica';
+  background: #39353E;
+  color: #B7A38D;
+  height: 35px;
+  box-shadow: 0 0 5px gray; }
+
+#nav-bar li {
+  display: inline-block;
+  padding: 0 15px;
+  height: 35px;
+  float: right;
+  line-height: 35px; }
+  #nav-bar li:hover {
+    background: #70717C;
+    color: #E6E9ED;
+    opacity: 1; }
+
+.center-container {
+  display: table;
+  position: absolute;
+  top: 40%;
+  width: 100%; }
+
+.center-middle {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+.center-bar {
+  font-family: 'Pacifico', cursive;
+  color: #39353E;
+  font-size: 56px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: auto;
+  margin-right: auto; }
